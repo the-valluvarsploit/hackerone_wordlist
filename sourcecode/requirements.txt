@@ -1,1 +1,5 @@
-will be updated soon...
+pyfiglet
+termcolor
+requests
+tldextract
+urlextract
