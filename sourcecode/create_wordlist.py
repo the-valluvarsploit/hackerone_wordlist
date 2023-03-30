@@ -8,6 +8,8 @@ from urllib.parse import unquote
 
 import csv,argparse,math,re
 
+# csv.field_size_limit(20000000)  # Set field size limit to example 20 MB if error occur
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', required=True)
 parser.add_argument('--output', required=True)
